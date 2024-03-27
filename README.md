@@ -1,6 +1,7 @@
 # <h1>RecipeApp</h1>
-Recipe App is a website using<b> HTML, CSS, and JavaScript</b>, with a <b>meal API</b>. It's designed to help users <b>search</b> and try various recipes.
-Receive immediate <b>notifications</b> upon clicking the search button and add light and dark mode feature.
+Built meal app with HTML, CSS, JScript, and meal API.Added light/dark mode feature.
+<br>
+It is  designed for search recipes when user click on search button then receive immediate notifications.
 <h2>Hosted Link</h2>
 <hr>
 <a href="https://recipeappnew.netlify.app/">Live</a>
