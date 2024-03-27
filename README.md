@@ -1,5 +1,5 @@
 # <h1>RecipeApp</h1>
-Recipe App is a website <b>using HTML, CSS, and JavaScript</b>, with a <b>meal API</b>. It's designed to help users <b>search</b> and try various recipes.
+Recipe App is a website using<b> HTML, CSS, and JavaScript</b>, with a <b>meal API</b>. It's designed to help users <b>search</b> and try various recipes.
 Receive immediate <b>notifications</b> upon clicking the search button and add light and dark mode feature.
 <h2>Hosted Link</h2>
 <hr>
