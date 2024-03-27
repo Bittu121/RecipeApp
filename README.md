@@ -1,7 +1,7 @@
 # <h1>RecipeApp</h1>
 Built meal app with HTML, CSS, JScript, and meal API.Added light/dark mode feature.
 <br>
-It is  designed for search recipes when user click on search button then receive immediate notifications.
+It is  designed for search recipes when user click on search button then get instant notifications.
 <h2>Hosted Link</h2>
 <hr>
 <a href="https://recipeappnew.netlify.app/">Live</a>
