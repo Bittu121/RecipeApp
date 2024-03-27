@@ -3,4 +3,8 @@ Recipe App is a website using HTML, CSS, and JavaScript, with a meal API. It's d
 Receive immediate notifications upon clicking the search button and add light and dark mode feature.
 <h2>Hosted Link</h2>
 <hr>
-<a href="https://recipeappnew.netlify.app/" style="text-decoration:none">Live</a>
+<a href="https://recipeappnew.netlify.app/">Live</a>
+
+Frontend Technologies: HTML, CSS, JavaScript
+API Integration: Meal API for recipe data
+Additional Features: Real-time notifications, Dark mode implementation
