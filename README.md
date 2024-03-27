@@ -5,6 +5,9 @@ Receive immediate notifications upon clicking the search button and add light an
 <hr>
 <a href="https://recipeappnew.netlify.app/">Live</a>
 
-Frontend Technologies: HTML, CSS, JavaScript
-API Integration: Meal API for recipe data
-Additional Features: Real-time notifications, Dark mode implementation
+<h2>Frontend Technologies</h2>
+HTML, CSS, JavaScript
+API Integration
+Meal API for recipe data
+<h2>Additional Features</h2>
+Real-time notifications, Dark mode implementation
