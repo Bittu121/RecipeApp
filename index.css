@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #f9f9f9;
+  color: #333;
+}
+/* start header section  */
+header {
+  background-color: #d88808;
+  color: #fff;
+}
+
+nav {
+  padding: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-item a {
+  text-decoration: none;
+}
+nav h1 {
+  font-size: 1.7vw;
+  font-weight: bold;
+  letter-spacing: 0.1vw;
+  color: white;
+  margin-left: 0.5vw;
+}
+/* start css for notification icon */
+nav img {
+  height: 2.2vw;
+  width: 2.4vw;
+  border-radius: 0.4vw;
+  cursor: pointer;
+}
+
+/*end css for notification icon */
+nav form {
+  display: flex;
+}
+nav form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+nav form button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0.5vw;
+}
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav h1 {
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 2vw;
+  }
+  nav img {
+    height: 8vw;
+    width: 8vw;
+    margin-left: 2.5vw;
+    margin-top: 2vw;
+    margin-bottom: 1.5vw;
+  }
+}
+/* End header section */
+
+/* Start main section */
+
+.recipe-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1vw;
+  margin-top: 1.5vh;
+  padding: 1.5vw;
+  place-items: center;
+}
+.recipe-container h2 {
+  border-color: blue;
+}
+.recipe {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  max-width: 20vw;
+}
+.recipe img {
+  height: 18vw;
+}
+.recipe h3 {
+  font-size: 1.3vw;
+  margin-block: 1vw;
+}
+.recipe p {
+  font-size: 1.2vw;
+  color: #4a44a4;
+}
+.recipe span {
+  font-weight: bold;
+}
+.recipe button {
+  font-size: 1vw;
+  padding: 0.6vw;
+  font-weight: bold;
+  border-radius: 1vw;
+  border: none;
+  cursor: pointer;
+  margin: 18px auto;
+  background-color: #f44336;
+  color: #fff;
+}
+.recipe button:hover {
+  background-color: #ff5c5c;
+}
+@media screen and (max-width: 600px) {
+  .recipe-container {
+    padding: 2vw;
+  }
+
+  .recipe {
+    max-width: 50vw;
+  }
+  .recipe img {
+    height: 43vw;
+  }
+  .recipe h3 {
+    font-size: 5vw;
+  }
+  .recipe p {
+    font-size: 3vw;
+    color: #4a44a4;
+  }
+  .recipe button {
+    font-size: 1.8vw;
+    padding: 0.9vw;
+  }
+}
+@media screen and (max-width: 255px) {
+  .recipe {
+    margin-right: 20vw;
+  }
+}
+/* End main section */
+
+/* Start footer section  */
+
+.footer-container {
+  background-color: #263037;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17vw;
+}
+.footer-body {
+  display: flex;
+  flex-direction: column;
+}
+.footer-body h3 {
+  margin-top: 0;
+}
+
+.footer-body .social-icons {
+  display: flex;
+}
+
+.footer-body .social-icons a {
+  color: #fff;
+  margin-right: 10px;
+}
+.footer-body .social-icons .links {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-body input[type="email"],
+.footer-bod input[type="submit"] {
+  padding: 5px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.copy-write {
+  width: 100%;
+  text-align: center;
+  height: 5vw;
+  background-color: #263037;
+}
+.copy-write p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-container .footer-body {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/*Apply css for light and dark-mode */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode header {
+  background-color: #222;
+  color: #fff;
+}
